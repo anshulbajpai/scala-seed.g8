@@ -2,8 +2,8 @@ import Dependencies._
 
 ThisBuild / scalaVersion := "2.13.2"
 ThisBuild / version := "0.1.0-SNAPSHOT"
-ThisBuild / organization := "com.example"
-ThisBuild / organizationName := "example"
+ThisBuild / organization := "com.github.anshulbajpai"
+ThisBuild / organizationName := "anshulbajpai"
 
 lazy val root = (project in file("."))
   .settings(name := "$name$", libraryDependencies += scalaTest % Test)
